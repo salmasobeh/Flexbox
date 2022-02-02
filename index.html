@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Tiers</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
+    <link rel="stylesheet" href="app.css">
+    <style>
+        hr {
+            height: 0.5px;
+            background-color: rgb(187, 235, 238);
+            border: none;
+        }
+    </style>
+</head>
+
+<body style="background-color:rgb(16, 164, 250);">
+    <div class="panel pricing-table">
+        <div class="row" style="display: flex; justify-content:space-evenly; background-color:rgb(255, 255, 255);padding-top: 5%; padding-bottom: 5%; align-items: center;">
+            <div class="pricing-plan">
+                <div class="box-img">
+                    <img src="icons/icon1.png" alt="" class="pricing-img">
+                    <div class="under_img1">
+                        <h2 class="pricing-header">Personal</h2>
+                        <ul class="pricing-features" style="padding: 0px;">
+                            <hr>
+                            <li class="pricing-features-item"> Custom domains </li>
+                            <hr>
+                            <li class="pricing-features-item"> Sleeps after 30 mins of inactivity</li>
+                            <hr>
+                        </ul>
+
+                        <span class="pricing-price"><b>Free</b></span>
+                        <a href="#/" class="pricing-button b1">Sign up</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-plan">
+                <div class="box-img">
+                    <img src="icons/icon2.png" alt="" class="pricing-img">
+                    <div class="under_img2">
+                        <h2 class="pricing-header">Small team</h2>
+
+                        <ul class="pricing-features" style="padding: 0px;">
+                            <hr>
+                            <li class="pricing-features-item">Never sleeps</li>
+                            <hr>
+                            <li class="pricing-features-item">Multiple workers for more powerful apps</li>
+                            <hr>
+                        </ul>
+                        <span class="pricing-price"><b>$150</b></span>
+                        <a href="#/" class="pricing-button b2 is-featured">Free trial</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-plan3">
+                <div class="box-img">
+                    <img src="icons/icon3.png" alt="" class="pricing-img">
+                    <div class="under_img3">
+                        <h2 class="pricing-header">Enterprise</h2>
+                        <ul class="pricing-features" style="padding: 0px">
+                            <hr>
+                            <li class="pricing-features-item ">Dedicated</li>
+                            <hr>
+                            <li class="pricing-features-item ">Simple horizontal scalability</li>
+                            <hr>
+                        </ul>
+                        <span class="pricing-price"><b>$400</b></span>
+                        <a href="#/ " class="pricing-button b3 ">Free trial</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<script>
+    for (var i = 0; i < 3; i++) {
+        var text = document.getElementsByClassName("pricing-header ")[i]
+        text.style.textTransform = "uppercase "
+        text.style.color = "#505f64"
+    }
+    var item = document.getElementsByClassName("pricing-features-item ")
+    for (var i = 0; i < item.length; i++) {
+
+        item[i].style.textTransform = "uppercase"
+        item[i].style.color = "#090ca5"
+    }
+    var item = document.getElementsByClassName("pricing-price")
+    for (var i = 0; i < item.length; i++) {
+
+        item[i].style.textTransform = "uppercase"
+        item[i].style.color = "#090ca5"
+    }
+
+    var item = document.getElementsByClassName("pricing-button")
+    for (var i = 0; i < item.length; i++) {
+        item[i].style.textTransform = "uppercase"
+    }
+</script>
+
+</html>

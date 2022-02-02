@@ -1,0 +1,119 @@
+@media screen and (max-width: 992px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .pricing-plan {
+        max-width: 50%;
+        border-right: none;
+    }
+    .pricing-features-item {
+        font-size: 0.6em;
+    }
+    .pricing-header {
+        font-size: 0.7em;
+    }
+    /* .pricing-price {
+        font-size: 25%;
+    } */
+    /* .pricing-button {
+        padding: 7px 17px;
+        font-size: 60%;
+    } */
+}
+
+
+/* 
+@media screen and (max-width: 500px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .pricing-plan {
+        max-width: 100%;
+        border-right: none;
+    }
+} */
+
+.panel {
+    padding: 100px 170px;
+    max-width: 100%;
+}
+
+.pricing-price {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 34px;
+    font-size: 24px;
+    color: #000;
+}
+
+.pricing-plan {
+    flex-basis: 25%;
+    text-align: center;
+    height: 100%;
+    border-right: 1px solid rgb(187, 235, 238);
+    max-width: 33.33%;
+    padding: 0px 50px;
+}
+
+.pricing-plan3 {
+    flex-basis: 25%;
+    height: 100%;
+    text-align: center;
+    max-width: 33.33%;
+    padding: 0px 50px;
+}
+
+.pricing-img {
+    width: 100%;
+}
+
+.pricing-features-item {
+    list-style-type: none;
+}
+
+.box-img {
+    max-height: 100%;
+}
+
+
+/* 
+.panel div{
+    flex: 1;
+    padding: 0.5em;/* add some padding ?
+
+text-align: center;
+border-right: 1px solid #fff;
+} */
+
+.pricing-button {
+    background-color: #249dee;
+    border-radius: 10px;
+    color: rgb(250, 251, 255);
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.b1 {
+    border: 2px solid #008CBA;
+    color: rgb(59, 101, 238);
+    background-color: #bbcdda;
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+.b2 {
+    padding: 12px 28px;
+    margin-bottom: 8px;
+}
+
+.b3 {
+    background-color: #ffffff;
+    border: 2px solid #008CBA;
+    color: rgb(59, 101, 238);
+}
