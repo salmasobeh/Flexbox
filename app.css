@@ -19,7 +19,20 @@
         padding: 7px 17px;
         font-size: 60%;
     } */
+  .row {
+        width: 100%;
+    }
 }
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+}
+
 
 
 /* 
